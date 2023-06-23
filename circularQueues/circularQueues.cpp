@@ -65,4 +65,7 @@ public:
 		int REAR_position = REAR;
 
 		// Cek apkah antrian kosong
-		if (FRONT == -1) 
+		if (FRONT == -1) {
+			cout << "Queue is empty\n";
+			return;
+		}
