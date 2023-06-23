@@ -32,3 +32,6 @@ public:
 			// Jika REAR berada diposisi terakhir array, kembali ke awal array
 			if (REAR == max - 1)
 				REAR = 0;
+			else
+				REAR = REAR + 1;
+		}
